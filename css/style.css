@@ -78,11 +78,13 @@ a:hover, button:hover {
     font-size: 18px;
     font-weight: 800;
 }
-.link {
+.link-first {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--fourth-color-text);
+    color:var(--fourth-color-text)
+}
+.link {
     text-decoration: none;
 }
 .first-list {
