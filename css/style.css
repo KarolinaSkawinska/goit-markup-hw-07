@@ -84,7 +84,7 @@ a:hover, button:hover {
     letter-spacing: 0.02em;
     color:var(--fourth-color-text)
 }
-.link-first:hover {
+.link-first:focus {
     color:#404bbf;
 }
 .link {
