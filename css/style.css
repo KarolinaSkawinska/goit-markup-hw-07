@@ -1,12 +1,14 @@
 :root {
     --first-color-text: #000;
     --second-color-text: #4D5AE5;
---color-white:white;
+    --third-color-text: #434455;
+    --color-white: #FFFFFF;
 }
 
 body {
     font-family: 'Roboto', 'Helvetica', 'Verdana', sans-serif;
-    color: #333;
+    color: var(--third-color-text);
+    background-color: var(--color-white);
 line-height: 1.6;
 cursor: pointer;
 }
