@@ -77,16 +77,23 @@ color:var(--second-color-text);
 font-size: 18px;
 text-transform: uppercase;
 }
-.highlight2 {
+.highlight-two {
     color:#F4F4FD;
     font-size: 18px;
     font-weight: 800;
 }
-.footer-list {
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 800;
     color: var(--second-color-text)
+    
+}
+.footer {
+    background-color: var(--fourth-color-text);
 }
 .footer-desc {
     color:#F4F4FD;
