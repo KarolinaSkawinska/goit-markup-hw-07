@@ -8,6 +8,10 @@
 .link {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style: none;
+}
+address {
+    font-style: normal;
 }
 .link:hover {
     color: #404bbf,
