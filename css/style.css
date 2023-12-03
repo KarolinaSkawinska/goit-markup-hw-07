@@ -5,7 +5,13 @@
     --fourth-color-text: #2e2f42;
     --color-white: #FFFFFF;
 }
-
+.link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link:hover {
+    color: #404bbf,
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--third-color-text);
