@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Helvetica', 'Verdana', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--third-color-text);
     background-color: var(--color-white);
 line-height: 1.6;
@@ -48,10 +48,14 @@ a:hover, button:hover {
     color:orange
 }
 .logo {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color:var(--first-color-text);
+    color:var(--second-color-text);
     font-size: 18px;
     font-weight: 800;
 }
