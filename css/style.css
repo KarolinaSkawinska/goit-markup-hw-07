@@ -52,7 +52,7 @@ cursor:pointer;
 a:hover, button:hover {
     color:#404BBF;
 }
-.highlight:hover, .highlight2:hover {
+.highlight:hover, .highlight-two:hover {
     color:orange
 }
 .first-section {
