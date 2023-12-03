@@ -103,7 +103,7 @@ a:hover, button:hover {
     color: var(--second-color-text)
     
 }
-.footer {
+footer {
     background-color: var(--fourth-color-text);
 }
 .footer-desc {
