@@ -78,6 +78,13 @@ a:hover, button:hover {
     font-size: 18px;
     font-weight: 800;
 }
+.link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--fourth-color-text);
+    text-decoration: none;
+}
 .first-list {
     font-size: 16px;
     font-weight: 500;
@@ -105,7 +112,6 @@ a:hover, button:hover {
     text-transform: uppercase;
     font-weight: 800;
     color: var(--second-color-text)
-    
 }
 footer {
     background-color: var(--fourth-color-text);
@@ -113,5 +119,4 @@ footer {
 .footer-desc {
     color:#F4F4FD;
     font-size: 16px;
-
 }
