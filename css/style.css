@@ -2,6 +2,7 @@
     --first-color-text: #000;
     --second-color-text: #4D5AE5;
     --third-color-text: #434455;
+    --fourth-color-text: #2e2f42;
     --color-white: #FFFFFF;
 }
 
@@ -29,11 +30,14 @@ p {
     color: #434455;
 }
 button {
-color:#4D5AE5;
-background-color: #F4F4FD;
+color:var(--color-white);
+background-color: var(--second-color-text);
+font-weight: 500;
 font-size: 16px;
-font-family: 'Roboto', 'Helvetica', 'Verdana', sans-serif;
-cur
+line-height: 1.5;
+letter-spacing: 0.04em;
+font-family: 'Roboto', sans-serif;
+cursor:pointer;
 }
 .first-button {
     color:var(--color-white);
@@ -42,15 +46,19 @@ font-size: 16px;
 font-family: 'Roboto', 'Helvetica', 'Verdana', sans-serif;
 }
 a:hover, button:hover {
-    color:orange
+    color:#404BBF;
 }
 .highlight:hover, .highlight2:hover {
     color:orange
 }
+.first-section {
+    background-color: var(--fourth-color-text);
+
+}
 .logo {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
