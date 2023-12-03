@@ -70,8 +70,12 @@ a:hover, button:hover {
 .second-list {
     font-size: 16px;
     color:#434455;
-
 }
+.second-h {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
 .highlight {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
