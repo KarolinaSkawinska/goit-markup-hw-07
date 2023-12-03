@@ -11,6 +11,12 @@
     list-style: none;
     text-decoration: none;
 }
+span {
+    color: var(--fourth-color-text)
+}
+.list {
+    list-style: none;
+}
 address {
     font-style: normal;
 }
