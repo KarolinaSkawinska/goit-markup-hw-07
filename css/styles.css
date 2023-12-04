@@ -32,7 +32,7 @@ line-height: 1.6;
 cursor: pointer;
 }
 header {
-background-color:var(--color-white);
+background-color: var(--color-white);
 }
 a {
     text-decoration: none;
@@ -79,7 +79,7 @@ button:focus {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color:var(--second-color-text);
+    color: var(--second-color-text);
     font-size: 18px;
     font-weight: 800;
 }
@@ -87,7 +87,7 @@ button:focus {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--fourth-color-text)
+    color: var(--fourth-color-text)
 }
 .link-first:hover {
     color:#404bbf;
