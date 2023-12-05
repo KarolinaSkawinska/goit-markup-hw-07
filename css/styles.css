@@ -6,11 +6,12 @@
     --fifth-color-text:#F4F4FD;
     --color-white: #FFFFFF;
 }
-.link {
+.logo {
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
     text-decoration: none;
+    color: var(--third-color-text)
 }
 span {
     color: var(--fourth-color-text)
