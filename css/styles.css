@@ -19,6 +19,23 @@ address {
 .link:hover {
     color: #404bbf,
 }
+.lhead {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color-text);
+}
+.link-lhead {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color-text);
+}
+.link-both:focus,
+.link-both:hover {
+    color: var(--fourth-color-text);
+    text-decoration: none;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--third-color-text);
@@ -110,18 +127,10 @@ button:focus {
     text-transform: uppercase;
     color: var(--second-color-text);
 }
-.link-first {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--fourth-color-text)
-}
-.link-first:hover {
-    color:#404bbf;
-}
-.link-first:focus {
-    color:#404bbf;
-}
+
+
+
+
 .logo link {
    color: var(--fourth-color-text);
    font-family: "Raleway", sans-serif;
