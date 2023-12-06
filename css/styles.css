@@ -89,6 +89,7 @@ a:hover, button:hover {
     background-color: #404BBF;
 }
 button:focus {
+    color:#FFFFFF;
     background-color: #404BBF;
 }
 .highlight:hover, .highlight-two:hover {
