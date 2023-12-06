@@ -84,7 +84,7 @@ a:hover, button:hover {
     background-color: #404BBF;
 }
 button:focus {
-    background-color: #404BBF;
+    background-color: #FFFFFF;
 }
 .highlight:hover, .highlight-two:hover {
     color:orange
