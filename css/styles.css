@@ -163,7 +163,8 @@ button:focus {
 footer {
     background-color: var(--fourth-color-text);
 }
-.footer-desc {
-    color:#F4F4FD;
-    font-size: 16px;
+.logo-index {
+    line-height: 1.5;
+    color: var(--fifth-color-text);
+    letter-spacing: 0.02em;
 }
