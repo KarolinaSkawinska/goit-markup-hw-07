@@ -140,6 +140,9 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.fourth-section {
+    background-color: #F4F4FD;
+}
 .highlight-two {
     color:#F4F4FD;
     font-size: 18px;
