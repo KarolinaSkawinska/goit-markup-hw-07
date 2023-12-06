@@ -49,6 +49,10 @@ background-color: var(--color-white);
     text-transform: capitalize;
     color: var(--fourth-color-text);
 }
+.list-fourth {
+    background-color: #FFFFFF;
+    
+}
 .header-list {
     line-height: 1.2;
     letter-spacing: 0.02em;
