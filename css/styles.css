@@ -137,6 +137,11 @@ button:focus {
 .second-list {
     font-size: 16px;
     color:#434455;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+.second-list:hover, .second-list:focus {
+    color: #404BBF;
 }
 .second-h {
     line-height: 1.2;
