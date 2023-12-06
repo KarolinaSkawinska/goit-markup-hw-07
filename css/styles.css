@@ -68,6 +68,7 @@ cursor:pointer;
 }
 .button {
     background-color: #4D5AE5;
+    color: #ffffff;
 }
 a:hover, button:hover {
     color:#FFFFFF;
