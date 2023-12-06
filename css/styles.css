@@ -79,6 +79,10 @@ letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
+.button-list {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
 .button-list:focus {
     color: #FFFFFF;
 }
