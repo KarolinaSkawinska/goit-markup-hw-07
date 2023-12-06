@@ -42,6 +42,13 @@ background-color: var(--color-white);
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+.h-third {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--fourth-color-text);
+}
 .header-list {
     line-height: 1.2;
     letter-spacing: 0.02em;
