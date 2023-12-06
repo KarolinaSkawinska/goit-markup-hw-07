@@ -19,23 +19,6 @@ address {
 .link:hover {
     color: #404bbf,
 }
-.lhead {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--fourth-color-text);
-}
-.link-lhead {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--fourth-color-text);
-}
-.link-both:focus,
-.link-both:hover {
-    color: var(--fourth-color-text);
-    text-decoration: none;
-}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--third-color-text);
@@ -87,8 +70,8 @@ p {
     color: #434455;
 }
 button {
-color: #ffffff;
-background-color: #4D5AE5;
+color: var(--second-color-text);
+background-color: var(--fifth-color-text);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -96,17 +79,11 @@ letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
-.press .button-list {
-    background-color: #4D5AE5;
-    color: #ffffff;
-
-}
 a:hover, button:hover {
     color:#FFFFFF;
     background-color: #404BBF;
 }
 button:focus {
-    color:#FFFFFF;
     background-color: #404BBF;
 }
 .highlight:hover, .highlight-two:hover {
@@ -127,10 +104,18 @@ button:focus {
     text-transform: uppercase;
     color: var(--second-color-text);
 }
-
-
-
-
+.link-first{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color-text)
+}
+.link-first:hover {
+    color:#404bbf;
+}
+.link-first:focus {
+    color:#404bbf;
+}
 .logo link {
    color: var(--fourth-color-text);
    font-family: "Raleway", sans-serif;
