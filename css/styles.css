@@ -104,7 +104,7 @@ button:focus {
     text-transform: uppercase;
     color: var(--second-color-text);
 }
-.link-first {
+.link-first link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
