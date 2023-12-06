@@ -79,6 +79,9 @@ letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
+.button-list:focus {
+    color: #FFFFFF;
+}
 a:hover, button:hover {
     color:#FFFFFF;
     background-color: #404BBF;
