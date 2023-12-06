@@ -45,10 +45,14 @@ background-color: var(--color-white);
 .header-list {
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+
 }
 a {
     text-decoration: none;
+}
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 h3 {
