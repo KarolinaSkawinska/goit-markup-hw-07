@@ -87,6 +87,10 @@ font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
 
+button:focus {
+    background-color:  #404BBF;
+}
+
 a:hover  {
     color:#FFFFFF;
     background-color: #404BBF;
