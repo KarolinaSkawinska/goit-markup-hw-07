@@ -95,6 +95,10 @@ a:hover  {
     color:#FFFFFF;
     background-color: #404BBF;
 }
+.press {
+    color: var(--second-color-text);
+    background-color: var(--fifth-color-text);
+}
 .press:hover {
     color: var(--second-color-text);
     background-color: var(--fifth-color-text)
