@@ -102,12 +102,12 @@ a:hover  {
     background-color: var(--fifth-color-text);
 }
 .press:hover {
-    color: var(--second-color-text);
-    background-color: var(--fifth-color-text)
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 .press:focus {
-    color: var(--second-color-text);
-    background-color: var(--fifth-color-text)
+    color:  #FFFFFF;
+    background-color: #404BBF;
 }
 .highlight:hover, .highlight-two:hover {
     color:orange
