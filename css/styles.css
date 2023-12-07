@@ -73,6 +73,9 @@ p {
     font-size: 16px;
     color: #434455;
 }
+.first-section {
+    background-color: var(--fourth-color-text);
+}
 button {
 color: #FFFFFF;
 background-color: #4D5AE5;
@@ -82,9 +85,6 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
 cursor:pointer;
-}
-.first-section {
-    background-color: var(--fourth-color-text);
 }
 
 a:hover, button:hover {
