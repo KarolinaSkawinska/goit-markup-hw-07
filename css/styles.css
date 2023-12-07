@@ -74,8 +74,8 @@ p {
     color: #434455;
 }
 button {
-color: var(--second-color-text);
-background-color: var(--fifth-color-text);
+color: #FFFFFF;
+background-color: #4D5AE5;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -83,13 +83,16 @@ letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
+.first-section {
+    background-color: var(--fourth-color-text);
+}
 
 a:hover, button:hover {
     color:#FFFFFF;
     background-color: #404BBF;
 }
 button:focus {
-    background-color: #404BBF;
+    background-color: #FFFFFF;
 }
 .highlight:hover, .highlight-two:hover {
     color:orange
@@ -110,7 +113,7 @@ button:focus {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--fourth-color-text)
+    color: var(--fourth-color-text);
 }
 .link-first:hover {
     color:#404bbf;
@@ -163,7 +166,7 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 800;
-    color: var(--second-color-text)
+    color: var(--second-color-text);
 }
 footer {
     background-color: var(--fourth-color-text);
