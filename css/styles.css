@@ -87,12 +87,17 @@ font-family: "Roboto", sans-serif;
 cursor:pointer;
 }
 
-a:hover, button:hover {
+a:hover  {
     color:#FFFFFF;
     background-color: #404BBF;
 }
-button:focus {
-    background-color: #404BBF;
+.press:hover {
+    color: var(--second-color-text);
+    background-color: var(--fifth-color-text)
+}
+.press:focus {
+    color: var(--second-color-text);
+    background-color: var(--fifth-color-text)
 }
 .highlight:hover, .highlight-two:hover {
     color:orange
