@@ -98,7 +98,6 @@ button:focus {
 
 a:hover  {
     color:#FFFFFF;
-    background-color: #404BBF;
 }
 .press {
     color: var(--second-color-text);
