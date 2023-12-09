@@ -204,6 +204,9 @@ a:hover  {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.second-list {
+    gap: 24px;
+}
 .visually-hidden {
     position: absolute;
   width: 1px;
