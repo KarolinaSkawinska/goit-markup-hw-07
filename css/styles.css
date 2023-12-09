@@ -243,6 +243,7 @@ a:hover  {
 }
 footer {
     background-color: var(--fourth-color-text);
+    padding: 100px 0;
 }
 .logo-index {
     line-height: 1.5;
