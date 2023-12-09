@@ -57,6 +57,7 @@ background-color: var(--color-white);
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px; 
 }
 .h-third {
     font-size: 36px;
