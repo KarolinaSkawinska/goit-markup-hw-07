@@ -76,6 +76,9 @@ p {
 .first-section {
     background-color: var(--fourth-color-text);
 }
+img {
+    display: block;
+}
 button {
 color: #FFFFFF;
 background-color: var(--second-color-text);
