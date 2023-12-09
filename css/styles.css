@@ -115,6 +115,11 @@ cursor:pointer;
 }
 .button {
     background-color:  #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover {
     background-color: #404BBF;
