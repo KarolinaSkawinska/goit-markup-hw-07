@@ -143,6 +143,7 @@ a:hover  {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--second-color-text);
+    margin-right: 76px;
 }
 .link-first{
     font-weight: 500;
