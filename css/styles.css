@@ -16,6 +16,11 @@
 .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    align-items: center;
 }
 span {
     color: var(--fourth-color-text)
