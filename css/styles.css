@@ -203,6 +203,7 @@ a:hover  {
 .second-h {
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .second-list {
     gap: 24px;
@@ -219,9 +220,9 @@ a:hover  {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.strategy {
+.about-us {
     width: calc((100% - 72px) / 4);
-    
+
 }
 .fourth-section {
     background-color: #F4F4FD;
