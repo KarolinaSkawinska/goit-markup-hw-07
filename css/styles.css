@@ -25,6 +25,11 @@
 span {
     color: var(--fourth-color-text)
 }
+.menu {
+    display: flex;
+    gap: 40px;
+    
+}
 .list {
     list-style: none;
 }
