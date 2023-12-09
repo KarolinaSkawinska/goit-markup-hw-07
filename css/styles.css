@@ -97,6 +97,7 @@ p {
 }
 .first-section {
     background-color: var(--fourth-color-text);
+    padding: 188px 0;
 }
 img {
     display: block;
