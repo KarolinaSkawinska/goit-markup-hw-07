@@ -32,6 +32,8 @@ span {
 }
 .list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 address {
     font-style: normal;
