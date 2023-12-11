@@ -88,6 +88,9 @@ background-color: var(--color-white);
 .last-list {
     gap: 24px;
 }
+.visually-hidden {
+    visibility: hidden;
+}
 .employees {
     padding: 32px 0px;
 }
