@@ -182,6 +182,9 @@ a:hover  {
     color: var(--second-color-text);
     margin-right: 76px;
 }
+.link {
+    display: inline-block;
+}
 .link-first{
     font-weight: 500;
     line-height: 1.5;
