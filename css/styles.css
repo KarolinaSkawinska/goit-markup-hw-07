@@ -316,5 +316,5 @@ footer {
     letter-spacing: 0.02em;
 }
 .point-first {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
