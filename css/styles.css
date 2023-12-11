@@ -167,14 +167,20 @@ a:hover  {
 .press {
     color: var(--second-color-text);
     background-color: var(--fifth-color-text);
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+
 }
 .press:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .press:focus {
     color:  #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .highlight:hover, .highlight-two:hover {
     color:orange
