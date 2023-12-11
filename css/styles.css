@@ -260,8 +260,6 @@ a:hover  {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    visibility: hidden;
-    display: none;
 }
 .second-list {
     gap: 24px;
