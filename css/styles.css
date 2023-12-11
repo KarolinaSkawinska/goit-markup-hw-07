@@ -127,15 +127,7 @@ p {
     font-size: 16px;
     color: #434455;
 }
-.first-section {
-    background-color: var(--fourth-color-text);
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
-.first-section-portfolio {
-    padding-top: 96px; 
-    padding-bottom: 120px;
-}
+
 
 .point-first {
     width: calc((100% - 48px) / 3);
@@ -255,6 +247,15 @@ a:hover  {
 }
 .section {
     padding: 120px 0;
+}
+.first-section-portfolio {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+.first-section {
+    background-color: var(--fourth-color-text);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .second-list {
     font-size: 16px;
