@@ -68,6 +68,12 @@ background-color: var(--color-white);
     color: var(--fourth-color-text);
     margin-bottom: 72px;
 }
+.list-third {
+    gap: 24px;
+}
+.li-third {
+    width: calc((100% - 48px) / 3);
+}
 .list-fourth {
     background-color: #FFFFFF;
 }
