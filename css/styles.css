@@ -123,6 +123,11 @@ p {
     background-color: var(--fourth-color-text);
     padding: 188px 0;
 }
+.first-section-portfolio {
+    padding: 188px 0;
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 img {
     display: block;
 }
@@ -205,8 +210,6 @@ a:hover  {
    letter-spacing: 0.03em;
    text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px; 
 }
 .first-list {
     font-size: 16px;
