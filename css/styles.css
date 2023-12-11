@@ -66,6 +66,7 @@ background-color: var(--color-white);
     text-align: center;
     text-transform: capitalize;
     color: var(--fourth-color-text);
+    margin-bottom: 72px;
 }
 .list-fourth {
     background-color: #FFFFFF;
