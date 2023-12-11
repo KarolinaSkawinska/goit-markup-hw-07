@@ -243,8 +243,10 @@ a:hover  {
    letter-spacing: 0.03em;
    text-transform: uppercase;
     text-decoration: none;
+}
+.footer-logo {
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
 }
 .first-list {
     font-size: 16px;
