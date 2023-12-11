@@ -262,6 +262,9 @@ a:hover  {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
+.points {
+    margin-bottom: 8px; 
+}
 .second-list {
     gap: 24px;
 }
