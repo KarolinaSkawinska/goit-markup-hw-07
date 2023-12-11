@@ -261,6 +261,7 @@ a:hover  {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     visibility: hidden;
+    display: none;
 }
 .second-list {
     gap: 24px;
