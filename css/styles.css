@@ -138,7 +138,14 @@ p {
     flex-wrap: wrap;
     row-gap: 48px;
 }
+.app-category {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
 
+}
+.app-header {
+    margin-bottom: 8px;
+}
 img {
     display: block;
 }
