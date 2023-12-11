@@ -6,6 +6,10 @@
     --fifth-color-text:#F4F4FD;
     --color-white: #FFFFFF;
 }
+* {
+    margin: 0;
+    padding: 0;
+    }
 .header-main {
     border-bottom: 1px solid #e7e9fc;
 }
