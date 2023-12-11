@@ -135,6 +135,8 @@ p {
     justify-content: center; 
     gap: 24px;
     margin-bottom: 72px;
+    flex-wrap: wrap;
+    row-gap: 48px;
 }
 img {
     display: block;
