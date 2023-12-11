@@ -128,10 +128,6 @@ p {
     color: #434455;
 }
 
-
-.point-first {
-    width: calc((100% - 48px) / 3);
-}
 .app-list {
     justify-content: center; 
     gap: 24px;
@@ -318,4 +314,7 @@ footer {
     line-height: 1.5;
     color: var(--fifth-color-text);
     letter-spacing: 0.02em;
+}
+.point-first {
+    width: calc((100% - 48px) / 3);
 }
