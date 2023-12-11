@@ -124,9 +124,7 @@ p {
     padding: 188px 0;
 }
 .first-section-portfolio {
-    padding: 188px 0;
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding: 96px 0 120px 0;
 }
 .app-list {
     justify-content: center; 
