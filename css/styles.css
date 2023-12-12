@@ -12,6 +12,7 @@
     }
 .header-main {
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 .div-header {
     display: flex;
@@ -46,6 +47,8 @@ span {
 }
 address {
     font-style: normal;
+    display: flex;
+    justify-content: flex-end;
 }
 .link:hover {
     color: #404bbf,
