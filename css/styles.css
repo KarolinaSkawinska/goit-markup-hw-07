@@ -35,6 +35,11 @@ span {
     gap: 40px;
 
 }
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
 .list {
     list-style: none;
     display: flex;
@@ -49,6 +54,7 @@ address {
     font-style: normal;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .link:hover {
     color: #404bbf,
@@ -337,7 +343,7 @@ footer {
 .footer-content {
     width: 264px;
     height: 112px;
-    
+
 }
 .point-first {
     width: calc((100% - 48px) / 3);
