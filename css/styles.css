@@ -334,6 +334,11 @@ footer {
     color: var(--fifth-color-text);
     letter-spacing: 0.02em;
 }
+.footer-content {
+    width: 264px;
+    height: 112px;
+    
+}
 .point-first {
     width: calc((100% - 48px) / 3);
 }
