@@ -274,9 +274,11 @@ a:hover  {
 }
 .first-section-portfolio {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 96px; 
     padding-bottom: 120px;
-    width: 1128px;
+    width: 1692px;
 height: 104px;
 flex-shrink: 0;
 }
@@ -344,15 +346,17 @@ flex-shrink: 0;
 }
 footer {
     background-color: var(--fourth-color-text);
+    width: 1440px;
+height: 312px;
     padding: 100px 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 .logo-index {
     line-height: 1.5;
     color: var(--fifth-color-text);
     letter-spacing: 0.02em;
+    width: 264px;
+    height: 72px;
+
 }
 .footer-content {
     width: 264px;
