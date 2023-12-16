@@ -106,6 +106,9 @@ background-color: var(--color-white);
 }
 .last-list {
     gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .visually-hidden {
     visibility: hidden;
@@ -324,9 +327,6 @@ flex-shrink: 0;
 }
 .fourth-section {
     background-color: #F4F4FD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .highlight-two {
     color:#F4F4FD;
