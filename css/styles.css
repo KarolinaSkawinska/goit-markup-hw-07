@@ -180,9 +180,7 @@ cursor:pointer;
 }
 .button {
     background-color:  #4D5AE5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
