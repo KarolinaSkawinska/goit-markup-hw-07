@@ -167,6 +167,7 @@ p {
 }
 img {
     display: block;
+    width: 100%;
 }
 button {
 color: #FFFFFF;
@@ -255,6 +256,9 @@ a:hover  {
    letter-spacing: 0.03em;
    text-transform: uppercase;
     text-decoration: none;
+}
+.section {
+    padding: 120 0 px;
 }
 .footer-logo {
     display: inline-block;
