@@ -13,12 +13,14 @@
 .header-main {
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .div-header {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-   
+    justify-content: center;
 
 }
 .container {
@@ -341,6 +343,7 @@ flex-shrink: 0;
 footer {
     background-color: var(--fourth-color-text);
     width: 1440px;
+
     padding: 100px 0;
 }
 .logo-index {
