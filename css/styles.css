@@ -83,7 +83,7 @@ background-color: var(--color-white);
     justify-content: center;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-white);
     max-width: 496px; 
 }
 .h-third {
@@ -102,7 +102,7 @@ background-color: var(--color-white);
     width: calc((100% - 48px) / 3);
 }
 .list-fourth {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -131,7 +131,7 @@ background-color: var(--color-white);
     font-weight: 500; 
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--fourth-color-text);
 
 }
 a {
@@ -145,11 +145,11 @@ a {
 h3 {
     font-size: 20px;
     font-weight: 500;
-    color:#2E2F42;
+    color: var(--fourth-color-text);
 }
 p {
     font-size: 16px;
-    color: #434455;
+    color: var(--third-color-text);
 }
 
 .app-list {
@@ -172,7 +172,7 @@ img {
     width: 100%;
 }
 button {
-color: #FFFFFF;
+color: var(--color-white);
 background-color: var(--second-color-text);
 font-weight: 500;
 font-size: 16px;
@@ -183,7 +183,7 @@ cursor:pointer;
 }
 .button {
     margin:auto;
-    background-color:  #4D5AE5;
+    background-color:  var(--second-color-text);
     display: block;
     min-width: 169px;
     height: 56px;
@@ -199,7 +199,7 @@ button:focus {
 }
 
 a:hover  {
-    color:#FFFFFF;
+    color:var(--color-white);
 }
 .press {
     color: var(--second-color-text);
@@ -210,12 +210,12 @@ a:hover  {
 
 }
 .press:hover {
-    color: #FFFFFF;
+    color: var(--color-white);
     background-color: #404BBF;
     border: 1px solid transparent;
 }
 .press:focus {
-    color:  #FFFFFF;
+    color:  var(--color-white);
     background-color: #404BBF;
     border: 1px solid transparent;
 }
@@ -273,7 +273,7 @@ a:hover  {
 .first-list {
     font-size: 16px;
     font-weight: 500;
-    color:#2E2F42;
+    color: var(--fourth-color-text);
 }
 
 .first-section-portfolio {
@@ -282,8 +282,6 @@ a:hover  {
     align-items: center;
     padding-top: 96px; 
     padding-bottom: 120px;
-    width: 1692px;
-height: 104px;
 flex-shrink: 0;
 }
 .first-section {
@@ -293,7 +291,7 @@ flex-shrink: 0;
 }
 .second-list {
     font-size: 16px;
-    color:#434455;
+    color: var(--third-color-text);
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
@@ -331,10 +329,10 @@ flex-shrink: 0;
     padding-bottom: 120px;
 }
 .fourth-section {
-    background-color: #F4F4FD;
+    background-color: var(--fifth-color-text);
 }
 .highlight-two {
-    color:#F4F4FD;
+    color: var(--fifth-color-text);
     font-size: 18px;
     font-weight: 800;
 }
@@ -347,10 +345,8 @@ flex-shrink: 0;
     font-weight: 800;
     color: var(--second-color-text);
 }
-footer {
+.footer {
     background-color: var(--fourth-color-text);
-    width: 1440px;
-
     padding: 100px 0;
 }
 .logo-index {
@@ -359,11 +355,6 @@ footer {
     letter-spacing: 0.02em;
     width: 264px;
     height: 72px;
-
-}
-.footer-content {
-    width: 264px;
-    height: 112px;
 
 }
 .point-first {
