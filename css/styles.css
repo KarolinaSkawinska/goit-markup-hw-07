@@ -268,9 +268,7 @@ a:hover  {
     font-weight: 500;
     color:#2E2F42;
 }
-.section {
-    padding: 120px 0;
-}
+
 .first-section-portfolio {
     display: flex;
     justify-content: center;
