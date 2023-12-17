@@ -17,12 +17,6 @@
     align-items: center;
     justify-content: center;
 }
-.div-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 .container {
     width: 1158px;
     padding: 0 15px;
