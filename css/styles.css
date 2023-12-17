@@ -36,6 +36,10 @@
 span {
     color: var(--fourth-color-text)
 }
+.span-header:hover {
+    color:#404bbf;
+}
+
 .menu {
     display: flex;
     gap: 40px;
