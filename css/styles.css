@@ -234,6 +234,7 @@ a:hover  {
     margin-right: 76px;
 }
 .link-first{
+    display: inline-block;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -323,6 +324,9 @@ flex-shrink: 0;
 .about-us {
     width: calc((100% - 72px) / 4);
 
+}
+.third-section {
+    padding-bottom: 120px;
 }
 .fourth-section {
     background-color: #F4F4FD;
