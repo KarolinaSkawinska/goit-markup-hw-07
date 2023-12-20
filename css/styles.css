@@ -301,7 +301,7 @@ flex-shrink: 0;
 .second-list:hover, .second-list:focus {
     color: #404BBF;
 }
-.wrapper-second {
+.icon-wapper {
     display: flex;
     align-items: center;
     justify-content: center;
