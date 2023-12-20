@@ -148,12 +148,16 @@ a {
     letter-spacing: 0.02em;
 }
 
-.sm-icons {
+.sm-list {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
+.sm-icons {
+    width: 40px;
+    height: 40px;
+}
 h3 {
     font-size: 20px;
     font-weight: 500;
