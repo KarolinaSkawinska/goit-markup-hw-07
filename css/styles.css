@@ -148,6 +148,12 @@ a {
     letter-spacing: 0.02em;
 }
 
+.sm-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 h3 {
     font-size: 20px;
     font-weight: 500;
