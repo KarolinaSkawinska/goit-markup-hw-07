@@ -301,6 +301,15 @@ flex-shrink: 0;
 .second-list:hover, .second-list:focus {
     color: #404BBF;
 }
+.wrapper-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .section {
     padding: 120px 0;
 }
