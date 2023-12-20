@@ -285,6 +285,8 @@ flex-shrink: 0;
 .first-section {
     background-color: var(--fourth-color-text);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/peopleoffice.jpg);
+
 }
 .second-list {
     font-size: 16px;
