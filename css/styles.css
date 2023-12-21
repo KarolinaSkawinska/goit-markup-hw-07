@@ -410,6 +410,11 @@ height: 88px;
 .clients-icon {
     fill: currentColor;
 }
+.footer-wrapper {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
 .highlight-two {
     color: var(--fifth-color-text);
     font-size: 18px;
