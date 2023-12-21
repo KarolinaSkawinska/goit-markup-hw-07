@@ -399,6 +399,17 @@ height: 88px;
     justify-content: center;
     color: var(--seventh-color-text);
 }
+.clients-link:hover {
+    border-color: var(--sixth-color-text);
+    color: var(--sixth-color-text);
+}
+.clients-link:focus {
+    border-color: var(--sixth-color-text);
+    color: var(--sixth-color-text);
+}
+.clients-icon {
+    fill: currentColor;
+}
 .highlight-two {
     color: var(--fifth-color-text);
     font-size: 18px;
