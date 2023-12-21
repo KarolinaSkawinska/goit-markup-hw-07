@@ -413,6 +413,8 @@ height: 88px;
 .footer-wrapper {
     display: flex;
     align-items: baseline;
+}
+.footer-wrapper-second {
     margin-right: 120px;
 }
 .highlight-two {
@@ -456,7 +458,7 @@ height: 88px;
 }
 .li-sm {
     height: 40px;
-    
+
 }
 .point-first {
     width: calc((100% - 48px) / 3);
