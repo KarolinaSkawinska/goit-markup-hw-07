@@ -476,6 +476,9 @@ height: 88px;
 .sm-link:focus {
     background-color: #31d0aa;
 }
+.footer-sm-icon {
+    fill: var(--fifth-color-text);
+}
 .point-first {
     width: calc((100% - 48px) / 3);
 }
