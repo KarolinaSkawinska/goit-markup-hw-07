@@ -441,6 +441,23 @@ height: 88px;
     height: 72px;
 
 }
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+    margin-bottom: 16px;
+}
+.footer-sm-list {
+    display: flex;
+    gap: 16px;
+
+}
+.li-sm {
+    height: 40px;
+    
+}
 .point-first {
     width: calc((100% - 48px) / 3);
 }
