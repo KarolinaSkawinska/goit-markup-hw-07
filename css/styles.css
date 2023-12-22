@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
 }
-span {
+.span {
     color: var(--fourth-color-text)
 }
 .span-header:hover {
@@ -179,12 +179,12 @@ a {
 .icon {
     fill: var(--fifth-color-text)
 }
-h3 {
+.hth {
     font-size: 20px;
     font-weight: 500;
     color: var(--fourth-color-text);
 }
-p {
+.pph {
     font-size: 16px;
     color: var(--third-color-text);
 }
@@ -332,6 +332,7 @@ flex-shrink: 0;
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
+    margin: auto;
 
 }
 .second-list {
