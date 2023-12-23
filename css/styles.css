@@ -314,6 +314,9 @@ button:focus {
 .link-active {
     color: var(--sixth-color-text);
 }
+.link-active::after {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .link-first:hover {
     color:#404bbf;
 }
