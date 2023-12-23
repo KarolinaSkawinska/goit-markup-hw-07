@@ -552,10 +552,12 @@ height: 88px;
 .modal-button:hover {
     background-color: var(--sixth-color-text);
     border: none;
+    fill: var(--color-white);
 }
 .modal-button:focus {
     background-color: var(--sixth-color-text);
     border: none;
+    fill: var(--color-white);
 }
 .modal-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
