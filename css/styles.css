@@ -295,6 +295,10 @@ button:focus {
     content: '';
     position: absolute;
     left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: var(--sixth-color-text);
+    border-radius: 2px;
 }
 .logo link {
    color: var(--fourth-color-text);
