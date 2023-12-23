@@ -324,16 +324,7 @@ button:focus {
 .link-first:focus {
     color:#404bbf;
 }
-.link-first::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: var(--sixth-color-text);
-    border-radius: 2px;
-    width: 100%;
-}
+
 .logo link {
    color: var(--fourth-color-text);
    font-family: "Raleway", sans-serif;
