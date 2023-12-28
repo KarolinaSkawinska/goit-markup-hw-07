@@ -260,9 +260,7 @@ button:focus {
     background-color:  #404BBF;
 }
 
-.goto:hover  {
-    color:var(--color-white);
-}
+
 .press {
     color: var(--second-color-text);
     background-color: var(--fifth-color-text);
