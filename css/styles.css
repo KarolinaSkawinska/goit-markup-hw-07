@@ -573,6 +573,9 @@ height: 88px;
     border: none;
     border-radius: 4px;
 }
+.form-icon {
+    margin-left: 16px;
+}
 .modal-wapper {
     position: fixed;
     top: 0;
