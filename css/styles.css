@@ -539,9 +539,11 @@ height: 88px;
 .subscribe-form {
     display: flex;
 }
+.subscribe-label {
+    gap: 24px;
+}
 
 .subscribe-input {
-    gap: 24px;
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
