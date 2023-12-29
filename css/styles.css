@@ -536,6 +536,12 @@ height: 88px;
     letter-spacing: 0.02em;
     color: var(--color-white);
 }
+.subscribe-form {
+    display: flex;
+}
+.subscribe-label {
+    
+}
 .modal-wapper {
     position: fixed;
     top: 0;
