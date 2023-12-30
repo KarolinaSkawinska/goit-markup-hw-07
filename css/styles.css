@@ -726,3 +726,8 @@ fill: var(--second-color-text);
     justify-content: center;
     fill: transparent;
 }
+.checkfield-span:checked {
+    background-color: var(--sixth-color-text);
+    border: none;
+    fill: var(--fifth-color-text);
+}
