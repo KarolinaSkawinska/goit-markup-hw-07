@@ -731,3 +731,6 @@ fill: var(--second-color-text);
     border: none;
     fill: var(--fifth-color-text);
 }
+.checkfield-link {
+    color: var(--second-color-text);
+}
