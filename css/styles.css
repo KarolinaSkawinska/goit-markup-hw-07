@@ -709,6 +709,9 @@ fill: var(--second-color-text);
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--seventh-color-text);
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .checkfield-span {
     width: 16px;
