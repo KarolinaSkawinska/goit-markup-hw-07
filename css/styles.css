@@ -734,3 +734,19 @@ fill: var(--second-color-text);
 .checkfield-link {
     color: var(--second-color-text);
 }
+.checkfield-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    cursor: pointer;
+    background-color: var(--second-color-text);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
