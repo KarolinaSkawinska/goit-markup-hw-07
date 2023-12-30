@@ -684,3 +684,6 @@ height: 88px;
 .icon-label:hover {
 fill: var(--second-color-text);
 }
+.div-textarea {
+    margin-bottom: 16px;
+}
