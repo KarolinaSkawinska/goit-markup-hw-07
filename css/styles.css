@@ -729,6 +729,8 @@ fill: var(--second-color-text);
     white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 .checkfield-span {
     width: 16px;
