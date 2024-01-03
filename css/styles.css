@@ -455,6 +455,7 @@ height: 88px;
 .footer-wrapper {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 .footer-wrapper-second {
     margin-right: 120px;
@@ -570,6 +571,9 @@ height: 88px;
     border: none;
     border-radius: 4px;
 }
+.subscribe-button:hover {
+    background-color: var(--sixth-color-text);
+}
 .form-icon {
     margin-left: 16px;
 }
@@ -654,6 +658,7 @@ height: 88px;
     color: var(--seventh-color-text);
     display: block;
     margin-bottom: 4px;
+    margin-top: 8px;
 }
 .div-label {
     position: relative;
@@ -675,7 +680,7 @@ height: 88px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-label:hover {
+.icon-label:focus {
 fill: var(--second-color-text);
 }
 .div-textarea {
@@ -695,6 +700,7 @@ fill: var(--second-color-text);
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: "Roboto", sans-serif;
 }
 .textfield:focus-within {
     border-color: var(--second-color-text);
@@ -748,6 +754,9 @@ fill: var(--second-color-text);
     font-size: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: auto;
+}
+.checkfield-button:hover {
+    background-color: var(--sixth-color-text);
 }
 .checkfield-input:checked + .checkfield-label .checkfield-span {
     background-color:var(--sixth-color-text);
