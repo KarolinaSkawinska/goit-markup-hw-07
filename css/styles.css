@@ -26,7 +26,8 @@
     display: none;
 }
 .container {
-    width: 1158px;
+    width: 100%;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -353,6 +354,7 @@ flex-shrink: 0;
     background-color: var(--fourth-color-text);
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+    width: 100%;
     max-width: 1440px;
     background-repeat: no-repeat; 
     background-position: center;
@@ -372,16 +374,11 @@ flex-shrink: 0;
     color: #404BBF;
 }
 .icon-wapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px; 
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
+    display: none; 
 }
 .section {
     padding: 120px 0;
+   flex-wrap: wrap;
 }
 .second-h {
     line-height: 1.2;
@@ -405,8 +402,7 @@ flex-shrink: 0;
   visibility: hidden;
 }
 .about-us {
-    width: calc((100% - 72px) / 4);
-
+  flex-basis: calc((100% - 72px) / 2);
 }
 .third-section {
     padding-bottom: 120px;
@@ -813,12 +809,31 @@ display: none;
         display: flex;
 flex-flow: column nowrap;
 gap: 40px;
+margin: auto;
       }     
       .js-menu-container .footer-sm-list {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row;
+        justify-content: space-between;
+        gap: 56px;
+      }
+      .mobile-menu-close {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
       }
 
+      @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-main {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people_bg@2x.jpg");
+  }
+}
 
 
      @media (min-width: 480px) {
@@ -835,5 +850,21 @@ gap: 40px;
      }
 
      @media (min-width: 1158px) {
-        
+        .section {
+            padding: 120px 0;
+            flex-wrap: nowrap;
+        }
+
+        .icon-wapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px; 
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        .about-us {
+            flex-basis: calc((100% - 72px) / 4);
+          }
      }
