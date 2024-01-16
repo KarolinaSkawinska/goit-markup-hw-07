@@ -813,11 +813,13 @@ display: none;
         display: flex;
 flex-flow: column nowrap;
 gap: 40px;
-margin-top: 284px;
-margin-bottom: 128px;
-margin-left: 40px;
-margin-right: 35px;
-      }       
+      }     
+      .js-menu-container .footer-sm-list {
+        display: flex;
+        flex-flow: column nowrap;
+      }
+
+
 
      @media (min-width: 480px) {
 
