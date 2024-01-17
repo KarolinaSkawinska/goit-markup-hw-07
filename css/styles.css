@@ -378,6 +378,16 @@ flex-shrink: 0;
 .second-list:hover, .second-list:focus {
     color: #404BBF;
 }
+.tel {
+    color: var(--second-color-text;)
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+
+}
 .icon-wapper {
     display: none; 
 }
@@ -504,8 +514,10 @@ height: 88px;
     text-align: center;
 }
 .mobile-nav-address {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 48px;
+    display: flex;
+    align-self: flex-start;
 }
 .footer-sm-list {
     display: flex;
