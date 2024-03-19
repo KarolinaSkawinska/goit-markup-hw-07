@@ -26,10 +26,11 @@
     display: none;
 }
 .container {
-    width: 100%;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navigation {
     display: flex;
@@ -54,6 +55,10 @@
     list-style: none;
     display: flex;
     gap: 40px;
+}
+.main-contacts {
+    display: flex;
+    flex-flow: column;
 }
 .button-list {
     justify-content: center;
@@ -441,7 +446,7 @@ text-transform: capitalize;
     list-style: none;
 }
 .clients {
-    flex-basis: calc((100% - 120px) / 3);
+    flex-basis: calc((100% - 120px) / 6);
     width: calc((100% - 120px) / 6);
 height: 88px;
 }
@@ -605,10 +610,6 @@ height: 88px;
     background-color: var(--sixth-color-text);
 }
 
-.subscribe-form .subscribe-label {
-    flex-basis: 100%;
-    width: 100%;
-  }
 .form-icon {
     margin-left: 16px;
 }
@@ -863,80 +864,20 @@ margin: auto;
         justify-content: flex-end;
       }
 
-      @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .header-main {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/people_bg@2x.jpg");
-  }
-}
+    @media screen and (max-width:767px) {
 
-
-     @media (min-width: 480px) {
-
-     }
-
-     @media (min-width: 768px) {
-        .div-header {
-            display: flex;
-            justify-content: space-between;
-        }
-        .mobile-menu-layout {
-            display: none;
-                 }
-    .points {
-        text-align: left;
     }
-    .third-section {
-        display: block;
-    }
-    .list-fourth {
-        flex-basis: calc(50% - 24px);
-    }
-    .customers-list {
-        justify-content: center;
-    }
-     
-     .clients {
-        flex-basis: calc((100% - 120px) / 3);
-        width: calc((100% - 120px) / 6);
-    height: 88px;
-    }
-}
 
-     @media (min-width: 1158px) {
-        .second-section {
-            padding: 120px 0;
-            flex-wrap: nowrap;
+    @media screen and (min-width: 768px) {
+        .container {
+          max-width: 768px;
         }
-
-        .icon-wapper {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 112px; 
-            background-color: #f4f4fd;
-            border-radius: 4px;
-            margin-bottom: 8px;
+      }
+      
+      @media screen and (min-width: 1158px) {
+        .container {
+          max-width: 1158px;
+          padding-left: 15px;
+          padding-right: 15px;
         }
-        .about-us {
-            flex-basis: calc((100% - 72px) / 4);
-          }
-          .last-list {
-            flex-wrap: nowrap;
-        }
-        .form-wrapper {
-            margin-left: 80px;
-            display: block;
-        }
-        .footer-wrapper-second {
-            margin-right: 120px;
-        }
-        .social-media {
-            text-align: left;
-        }
-     }
+      }
