@@ -379,7 +379,7 @@ flex-shrink: 0;
     color: #404BBF;
 }
 .tel {
-    color: var(--second-color-text;)
+    color: var(--second-color-text);
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -883,6 +883,7 @@ margin: auto;
      @media (min-width: 768px) {
         .div-header {
             display: flex;
+            justify-content: space-between;
         }
         .mobile-menu-layout {
             display: none;
