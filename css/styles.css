@@ -53,7 +53,6 @@
 } 
 .list {
     list-style: none;
-    display: flex;
     gap: 40px;
 }
 .main-contacts {
@@ -373,6 +372,8 @@ flex-shrink: 0;
 
 }
 .second-list {
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     color: var(--third-color-text);
     line-height: 1.5; 
@@ -864,6 +865,16 @@ margin: auto;
         justify-content: flex-end;
       }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header-main {
+    background-image: linear-gradient(
+   rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)
+),
+url("../images/people_bg@2x.jpg"); }
+}
     @media screen and (max-width:767px) {
 
     }
