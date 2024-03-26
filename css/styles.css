@@ -448,7 +448,7 @@ text-transform: capitalize;
 }
 .clients {
     flex-basis: calc((100% - 120px) / 6);
-    width: calc((100% - 120px) / 6);
+    width: 190px;
 height: 88px;
 }
 .clients-link {
@@ -863,6 +863,18 @@ margin: auto;
         display: flex;
         width: 100%;
         justify-content: flex-end;
+      }
+      .close {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        background: transparent;
+        border: none;
+        line-height: 0;
+        padding: 0;
+
       }
 
     @media (min-device-pixel-ratio: 2),
