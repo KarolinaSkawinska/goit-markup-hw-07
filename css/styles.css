@@ -864,7 +864,7 @@ margin: auto;
         width: 100%;
         justify-content: flex-end;
       }
-      .close {
+      .js-close-menu {
         width: 24px;
         height: 24px;
         position: absolute;
