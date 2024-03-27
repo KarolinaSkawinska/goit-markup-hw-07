@@ -883,7 +883,14 @@ margin: auto;
    rgba(46, 47, 66, 0.7),
    rgba(46, 47, 66, 0.7)
 ),
-url("../images/people_bg@2x.jpg"); }
+url("../images/peopleofficex2.jpg"); }
+.points {
+    margin-bottom: 8px; 
+    margin-left: 16px;
+    text-align: center;
+    gap: 72px;
+
+}
 }
     @media screen and (max-width:767px) {
 
