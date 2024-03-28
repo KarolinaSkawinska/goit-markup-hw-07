@@ -82,14 +82,14 @@ cursor: pointer;
 }
 .h-first {
     margin:0 auto 48px;
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.07;
     display: flex;
     justify-content: center;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
-    max-width: 496px; 
+    max-width: 200px; 
 }
 .h-third {
     font-size: 36px;
@@ -117,7 +117,7 @@ cursor: pointer;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .last-list {
-    gap: 24px;
+    gap: 72px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -180,11 +180,12 @@ cursor: pointer;
     fill: var(--fifth-color-text)
 }
 .hth {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
     color: var(--fourth-color-text);
 }
 .pph {
+    font-weight: 500;
     font-size: 16px;
     color: var(--third-color-text);
 }
@@ -360,10 +361,10 @@ flex-shrink: 0;
 }
 .first-section {
     background-color: var(--fourth-color-text);
-    padding: 188px 0;
+    padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     width: 100%;
-    max-width: 1440px;
+    max-width: 320px;
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
@@ -373,11 +374,10 @@ flex-shrink: 0;
 .second-list {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     color: var(--third-color-text);
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    gap: 24px;
+    gap: 72px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .second-list:hover, .second-list:focus {
@@ -446,7 +446,6 @@ text-transform: capitalize;
     list-style: none;
 }
 .clients {
-    flex-basis: calc((100% - 120px) / 6);
     width: 190px;
 height: 88px;
 }
@@ -476,6 +475,7 @@ height: 88px;
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+    gap: 72px;
     justify-content: center;
 }
 
@@ -492,7 +492,7 @@ height: 88px;
     text-transform: uppercase;
     font-weight: 800;
     color: var(--second-color-text);
-    display: inline-block;
+    display: block;
     margin-bottom: 16px; 
     text-align: center;
 }
@@ -901,5 +901,8 @@ url("../images/peopleofficex2.jpg"); }
           max-width: 1158px;
           padding-left: 15px;
           padding-right: 15px;
+        }
+        .section {
+            padding: 96px 0; 
         }
       }
