@@ -421,6 +421,8 @@ body {
         .points {
             margin-bottom: 8px; 
             text-align: center;
+            font-size: 36px;
+    font-weight: 700;
         }
         .visually-hidden {
             position: absolute;
@@ -1286,8 +1288,7 @@ body {
         .points {
             margin-bottom: 8px; 
             text-align: center;
-            font-size: 36px;
-    font-weight: 700;
+            
         }
         .visually-hidden {
             position: absolute;
