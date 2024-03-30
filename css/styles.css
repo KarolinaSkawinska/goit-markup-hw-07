@@ -189,7 +189,6 @@ body {
         }
         .hth {
             font-size: 36px;
-            font-weight: 500;
             color: var(--fourth-color-text);
         }
         .pph {
@@ -312,6 +311,7 @@ body {
             text-transform: uppercase;
             color: var(--second-color-text);
             margin-right: 76px;
+            padding: 17px 0;
         }
         .link-first {
             display: inline-block;
@@ -826,6 +826,9 @@ body {
         
              .mobile-menu-layout button {
                 background-color: transparent;
+                border: none;
+                padding: 0;
+                line-height: 0;
              }
              .js-menu-container {
                 display: none;
@@ -1684,6 +1687,9 @@ body {
         
              .mobile-menu-layout button {
                 background-color: transparent;
+                border: none;
+                padding: 0;
+                line-height: 0;
              }
              .js-menu-container {
                 display: none;
@@ -2545,6 +2551,9 @@ body {
         
              .mobile-menu-layout button {
                 background-color: transparent;
+                border: none;
+                padding: 0;
+                line-height: 0;
              }
              .js-menu-container {
                 display: none;
