@@ -32,7 +32,9 @@ url("../images/peopleofficex2.jpg"); }
 }
 /* ================================================= MOBILE 👇 ========================================= */
     @media screen and (max-width:767px) {
-        
+        .section {
+            padding: 96px 0; 
+        }
         .header-main {
             background-color: var(--color-white);
             border-bottom: 1px solid #e7e9fc;
@@ -409,9 +411,6 @@ url("../images/peopleofficex2.jpg"); }
         }
         .icon-wapper {
             display: none; 
-        }
-        .section {
-            padding: 120px 0; 
         }
         .second-section {
             flex-wrap: wrap;
@@ -894,6 +893,9 @@ url("../images/peopleofficex2.jpg"); }
 /* ================================================= TABLET 👇 ========================================= */
     @media screen and (min-width: 768px) {
 
+        .section {
+            padding: 96px 0; 
+        }
 
         .header-main {
             background-color: var(--color-white);
@@ -1267,9 +1269,6 @@ url("../images/peopleofficex2.jpg"); }
         }
         .icon-wapper {
             display: none; 
-        }
-        .section {
-            padding: 120px 0; 
         }
         .second-section {
             flex-wrap: wrap;
@@ -1752,7 +1751,9 @@ url("../images/peopleofficex2.jpg"); }
       
 /* ================================================= DESKTOP 👇 ========================================= */      
       @media screen and (min-width: 1158px) {
-
+        .section {
+            padding: 120px 0; 
+        }
 
         .header-main {
             background-color: var(--color-white);
@@ -2129,9 +2130,7 @@ url("../images/peopleofficex2.jpg"); }
         .icon-wapper {
             display: none; 
         }
-        .section {
-            padding: 96px 0; 
-        }
+      
         .second-section {
             flex-wrap: wrap;
         }
@@ -2610,4 +2609,4 @@ url("../images/peopleofficex2.jpg"); }
 
 
     }
-      }
+   
