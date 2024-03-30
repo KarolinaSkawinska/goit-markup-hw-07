@@ -8,6 +8,11 @@
     --seventh-color-text: #8e8f99;
     --color-white: #FFFFFF;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 body {
     font-family: "Roboto", sans-serif;
     color: var(--third-color-text);
@@ -27,11 +32,7 @@ url("../images/peopleofficex2.jpg"); }
 
 }
     @media screen and (max-width:767px) {
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            }
+        
         .header-main {
             background-color: var(--color-white);
             border-bottom: 1px solid #e7e9fc;
