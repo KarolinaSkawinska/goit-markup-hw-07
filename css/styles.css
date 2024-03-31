@@ -1834,13 +1834,6 @@ body {
         .link:hover {
             color: #404bbf,
         }
-        body {
-            font-family: "Roboto", sans-serif;
-            color: var(--third-color-text);
-            background-color: var(--color-white);
-        line-height: 1.6;
-        cursor: pointer;
-        }
         .h-first {
             margin:0 auto 48px;
             font-size: 56px;
@@ -2145,9 +2138,6 @@ body {
             background-color: #f4f4fd;
             border-radius: 4px;
             margin-bottom: 8px;
-        }
-        .section {
-            padding: 120px 0;
         }
         .second-h {
             line-height: 1.2;
