@@ -1245,7 +1245,7 @@ body {
             padding: 72px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
             width: 100%;
-            max-width: 320px;
+            max-width: 100%;
             background-repeat: no-repeat; 
             background-position: center;
             background-size: cover;
@@ -1371,9 +1371,9 @@ body {
             text-transform: uppercase;
             font-weight: 800;
             color: var(--second-color-text);
-            display: block;
+            display: flex;
             margin-bottom: 16px; 
-            text-align: center;
+           
         }
         .footer {
             background-color: var(--fourth-color-text);
@@ -1394,7 +1394,6 @@ body {
             letter-spacing: 0.02em;
             color: var(--color-white);
             margin-bottom: 16px;
-            text-align: center;
         }
         .mobile-nav-address {
             margin-left: 20px;
@@ -1442,7 +1441,6 @@ body {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--color-white);
-            text-align: center;
         }
         .form-wrapper {
           display: flex;
