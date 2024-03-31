@@ -1035,6 +1035,7 @@ body {
             justify-content: center;
             gap: 24px;
             list-style: none;
+            padding: 14px 24px;
         }
         
         .sm-icons {
