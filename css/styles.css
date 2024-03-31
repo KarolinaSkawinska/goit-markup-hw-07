@@ -2212,8 +2212,9 @@ body {
         }
         .footer-wrapper {
             display: flex;
-            align-items: baseline;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: nowrap;
+            gap: 40px;
         }
         .footer-wrapper-second {
             margin-right: 120px;
