@@ -1185,6 +1185,10 @@ body {
             text-transform: uppercase;
             color: var(--second-color-text);
             margin-right: 76px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 14px 24px;
         }
         .link-first {
             display: inline-block;
@@ -1355,7 +1359,8 @@ body {
             align-items: baseline;
             flex-wrap: wrap;
             gap: 72px;
-            justify-content: center;
+            justify-content: left;
+            padding: 24px 72px;
         }
         
         .highlight-two {
