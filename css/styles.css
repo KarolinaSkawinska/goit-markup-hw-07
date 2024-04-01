@@ -2535,5 +2535,8 @@ screen and (min-resolution: 2dppx) {
         .div-label:focus-within {
              fill: var(--second-color-text);
              }
+             .tabs {
+            display: none;
+             }
     }
    
