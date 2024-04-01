@@ -921,6 +921,7 @@ screen and (min-resolution: 2dppx) {
         .div-header {
             padding-top: 24px;
             padding-bottom: 24px;
+            display: flex;
         }
         .container {
             max-width: 768px;
