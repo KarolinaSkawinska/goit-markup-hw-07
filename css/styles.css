@@ -105,7 +105,7 @@ screen and (min-resolution: 2dppx) {
             text-align: center;
             letter-spacing: 0.02em;
             color: var(--color-white);
-            max-width: 320px; 
+            max-width: 200px; 
         }
         .h-third {
             font-size: 36px;
@@ -496,7 +496,7 @@ screen and (min-resolution: 2dppx) {
             display: flex;
             align-items: baseline;
             flex-wrap: wrap;
-            gap: 72px;
+            gap: 72px 24px;
             justify-content: center;
         }
         
@@ -1043,7 +1043,6 @@ screen and (min-resolution: 2dppx) {
             justify-content: center;
             gap: 24px;
             list-style: none;
-            padding: 14px 24px;
         }
         
         .sm-icons {
@@ -1075,7 +1074,6 @@ screen and (min-resolution: 2dppx) {
             color: var(--fourth-color-text);
         }
         .pph {
-            font-weight: 500;
             font-size: 16px;
             color: var(--third-color-text);
             margin-bottom: 8px;
@@ -1198,7 +1196,6 @@ screen and (min-resolution: 2dppx) {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            padding: 14px 24px;
         }
         .link-first {
             display: inline-block;
@@ -1256,7 +1253,7 @@ screen and (min-resolution: 2dppx) {
         }
         .first-section {
             background-color: var(--fourth-color-text);
-            padding: 72px 0;
+            padding: 112px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficex2.jpg);
             width: 100%;
             max-width: 100%;
