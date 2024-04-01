@@ -88,15 +88,16 @@ body {
         }
 
         .h-first {
-            margin:0 auto 48px;
+            margin:0 auto;
             font-size: 36px;
-            line-height: 1.07;
+            font-weight: 700;
+            line-height: 1.11;
             display: flex;
             justify-content: center;
             text-align: center;
             letter-spacing: 0.02em;
             color: var(--color-white);
-            max-width: 200px; 
+            max-width: 320px; 
         }
         .h-third {
             font-size: 36px;
@@ -962,14 +963,14 @@ body {
 
         .h-first {
             margin:0 auto 48px;
-            font-size: 36px;
-            line-height: 1.07;
+            font-size: 56px;
+            line-height: 1.11;
             display: flex;
             justify-content: center;
             text-align: center;
             letter-spacing: 0.02em;
             color: var(--color-white);
-            max-width: 200px; 
+            max-width: 496px; 
         }
         .h-third {
             font-size: 36px;
@@ -1837,7 +1838,8 @@ body {
         .h-first {
             margin:0 auto 48px;
             font-size: 56px;
-            line-height: 1.07;
+            font-weight: 700;
+            line-height: 1.11;
             display: flex;
             justify-content: center;
             text-align: center;
