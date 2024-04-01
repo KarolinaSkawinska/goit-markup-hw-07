@@ -1770,7 +1770,7 @@ screen and (min-resolution: 2dppx) {
                 display: none;
                  }
                 .contactinfo {
-                    gap: 40px;
+                    gap: 20px;
                 }
 
     }
