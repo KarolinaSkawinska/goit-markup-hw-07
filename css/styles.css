@@ -1769,7 +1769,9 @@ screen and (min-resolution: 2dppx) {
               .tabs {
                 display: none;
                  }
-
+                .contactinfo {
+                    gap: 40px;
+                }
 
     }
       
