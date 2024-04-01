@@ -1806,6 +1806,7 @@ screen and (min-resolution: 2dppx) {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-right: auto;
         }
         .span {
             color: var(--fourth-color-text)
