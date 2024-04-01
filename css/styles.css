@@ -1262,6 +1262,7 @@ body {
         }
         .second-list {
             display: flex;
+            flex-wrap: wrap;
             color: var(--third-color-text);
             line-height: 1.5; 
             letter-spacing: 0.02em;
@@ -1294,7 +1295,7 @@ body {
         }
         .points {
             margin-bottom: 8px; 
-            text-align: center;
+            text-align: left;
             font-size: 36px;
             font-weight: 700;
             
