@@ -19,9 +19,17 @@ body {
     background-color: var(--color-white);
 }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx); 
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+.first-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleofficex2.jpg);
+}
+} 
 /* ================================================= MOBILE 👇 ========================================= */
     @media screen and (max-width:767px) {
         .section {
@@ -1249,10 +1257,7 @@ body {
         .first-section {
             background-color: var(--fourth-color-text);
             padding: 72px 0;
-             @media (min-device-pixel-ratio: 2),
-             (min-resolution: 192dpi),
-              (min-resolution: 2dppx)
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficex2.jpg);
             width: 100%;
             max-width: 100%;
             background-repeat: no-repeat; 
