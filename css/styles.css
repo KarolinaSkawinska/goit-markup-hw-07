@@ -950,7 +950,6 @@ screen and (min-resolution: 2dppx) {
         } 
         .list {
             list-style: none;
-            gap: 40px;
         }
         .main-contacts {
             display: flex;
