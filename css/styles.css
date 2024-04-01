@@ -1793,9 +1793,7 @@ screen and (min-resolution: 2dppx) {
             padding-top: 24px;
             padding-bottom: 24px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            
+            align-items: center;    
         }
         .container {
             width: 1158px;
