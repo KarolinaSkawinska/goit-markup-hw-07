@@ -1369,7 +1369,7 @@ screen and (min-resolution: 2dppx) {
             display: flex;
             align-items: baseline;
             flex-wrap: wrap;
-            gap: 72px;
+            gap: 72px 24px;
             max-width: 530px;
         }
         
