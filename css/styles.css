@@ -1077,6 +1077,7 @@ screen and (min-resolution: 2dppx) {
         .pph {
             font-size: 16px;
             color: var(--third-color-text);
+            font-weight: 500;
         }
         
         .app-list {
@@ -1255,23 +1256,30 @@ screen and (min-resolution: 2dppx) {
         .first-section {
             background-color: var(--fourth-color-text);
             padding: 112px 0;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficex2.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficetablet.jpg);
             width: 100%;
             max-width: 100%;
             background-repeat: no-repeat; 
             background-position: center;
             background-size: cover;
             margin: auto;
-        
         }
+
+        @media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+.first-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleofficetabletx2.jpg);
+}
+} 
         .second-list {
             display: flex;
             flex-wrap: wrap;
             color: var(--third-color-text);
-            line-height: 1.5; 
-            letter-spacing: 0.02em;
-            font-size: 12px;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             gap: 72px 24px; 
         }
         .second-list:hover, .second-list:focus {
