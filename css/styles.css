@@ -2222,7 +2222,6 @@ screen and (min-resolution: 2dppx) {
         .footer-wrapper {
             display: flex;
             flex-wrap: nowrap;
-            margin-left: auto;
         }
         .footer-wrapper-second {
             margin-right: 120px;
@@ -2538,5 +2537,10 @@ screen and (min-resolution: 2dppx) {
              .tabs {
             display: none;
              }
+             .form-wrapper {
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+              }
     }
    
