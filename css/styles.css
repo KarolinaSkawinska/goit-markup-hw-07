@@ -1077,7 +1077,6 @@ screen and (min-resolution: 2dppx) {
         .pph {
             font-size: 16px;
             color: var(--third-color-text);
-            margin-bottom: 8px;
         }
         
         .app-list {
@@ -1193,7 +1192,7 @@ screen and (min-resolution: 2dppx) {
             text-decoration: none;
             text-transform: uppercase;
             color: var(--second-color-text);
-            margin-right: 76px;
+            margin-right: 120px;
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -1272,7 +1271,8 @@ screen and (min-resolution: 2dppx) {
             line-height: 1.5; 
             letter-spacing: 0.02em;
             font-size: 12px;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            gap: 72px 24px; 
         }
         .second-list:hover, .second-list:focus {
             color: #404BBF;
@@ -2140,7 +2140,6 @@ screen and (min-resolution: 2dppx) {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            padding: 14px 24px;
         }
         .second-list:hover, .second-list:focus {
             color: #404BBF;
@@ -2222,9 +2221,8 @@ screen and (min-resolution: 2dppx) {
         }
         .footer-wrapper {
             display: flex;
-            justify-content: center;
             flex-wrap: nowrap;
-            gap: 40px;
+            margin-left: auto;
         }
         .footer-wrapper-second {
             margin-right: 120px;
