@@ -1281,6 +1281,8 @@ screen and (min-resolution: 2dppx) {
             flex-wrap: wrap;
             color: var(--third-color-text);
             gap: 72px 24px; 
+            font-size: 12px;
+    font-weight: 400;
         }
         .second-list:hover, .second-list:focus {
             color: #404BBF;
